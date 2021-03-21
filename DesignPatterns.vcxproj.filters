@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SOILD">
+      <UniqueIdentifier>{e29288b9-cf71-4b5d-9c7b-ff10d679ebcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builder">
+      <UniqueIdentifier>{f96c8ebd-01a0-4662-b02c-c779981ffc68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{8ea269bf-b9ba-4bf1-aa9f-6179e5700539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{05c548bf-f6d7-4884-afeb-e41779b5e2c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Adapter">
+      <UniqueIdentifier>{ba095a7e-d052-4a8a-aa68-c827b1dcd6c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bridge">
+      <UniqueIdentifier>{a9996a6d-8e10-4d9f-ab43-4bada514d627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composite">
+      <UniqueIdentifier>{c8c5c69e-2dba-48be-bb9b-55cbc8df35ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decorator">
+      <UniqueIdentifier>{e722695a-f71c-4a2e-8ad0-4ddf77b29cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Facade">
+      <UniqueIdentifier>{378bb351-cbd2-458b-bac8-1315c28d9c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{6c5e768c-52c8-42d5-8b35-51840bb1125f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chain Of Responsibility">
+      <UniqueIdentifier>{98afaf3c-8f74-414c-bcb9-4be01a6d16c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{eb4a8dc7-8a6f-46ae-a592-9ade45f24a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter">
+      <UniqueIdentifier>{34af2efd-b406-4b18-a7f2-d45a8e330ccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterators">
+      <UniqueIdentifier>{f6b36428-accd-424f-8d1c-65fdf0349d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mediator">
+      <UniqueIdentifier>{b176dd0b-0b1e-4107-b77b-2cb21582bbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memento">
+      <UniqueIdentifier>{31e07307-c4c3-45cc-af91-acddc4a089ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Observer">
+      <UniqueIdentifier>{3e9df824-6f20-4395-b6ef-3d8dae0a3ac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="State">
+      <UniqueIdentifier>{e5d45172-f6c3-4d35-b715-aa9288187c35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuilderExample.h">
+      <Filter>Builder</Filter>
+    </ClCompile>
+    <ClCompile Include="DIP.h">
+      <Filter>SOILD</Filter>
+    </ClCompile>
+    <ClCompile Include="ISP.h">
+      <Filter>SOILD</Filter>
+    </ClCompile>
+    <ClCompile Include="LSP.h">
+      <Filter>SOILD</Filter>
+    </ClCompile>
+    <ClCompile Include="OCP.h">
+      <Filter>SOILD</Filter>
+    </ClCompile>
+    <ClCompile Include="SRP.h">
+      <Filter>SOILD</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatRoom.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="SaferObservable.cpp">
+      <Filter>Observer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CoffeeFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="DrinkFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrink.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="HotDrinkFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonExercise.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Adapter.h">
+      <Filter>Adapter</Filter>
+    </ClInclude>
+    <ClInclude Include="Bridge.h">
+      <Filter>Bridge</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite2.h">
+      <Filter>Composite</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Decorator.h">
+      <Filter>Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Facade.h">
+      <Filter>Facade</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualProxy.h">
+      <Filter>Proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="Chain_of_responsibility.h">
+      <Filter>Chain Of Responsibility</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterator.h">
+      <Filter>Iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector_Iterator.h">
+      <Filter>Iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatRoom.hpp">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.hpp">
+      <Filter>Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="TokenMachine.h">
+      <Filter>Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="Memento.h">
+      <Filter>Memento</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.hpp">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observable.hpp">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.hpp">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="SaferObservable.hpp">
+      <Filter>Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>State</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
